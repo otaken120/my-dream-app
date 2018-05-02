@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule} from '@angular/forms'
+//For Two-Way-Binding to work, you need to enable the ngModel  
+//directive. 
+//This is done by adding the FormsModule  to the imports[]  array
+// in the AppModule.
 
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
